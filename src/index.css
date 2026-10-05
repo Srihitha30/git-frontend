@@ -1,0 +1,136 @@
+:root {
+  --text: #ffffff;
+  --text-h: #ffffff;
+
+  --bg: #1e1e1e;
+
+  --border: #2e303a;
+
+  --code-bg: #1f2028;
+
+  --accent: #c084fc;
+
+  --accent-bg: rgba(192, 132, 252, 0.15);
+
+  --accent-border: rgba(192, 132, 252, 0.5);
+
+  --social-bg: rgba(47, 48, 58, 0.5);
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+
+  letter-spacing: 0.18px;
+
+  color: #ffffff;
+
+  background: #1e1e1e;
+
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================================
+   RESET
+================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ================================
+   HTML + BODY
+================================ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100%;
+
+  background: #1e1e1e;
+
+  color: white;
+}
+
+/* ================================
+   ROOT
+================================ */
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  background: #1e1e1e;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+}
+
+/* ================================
+   HEADINGS
+================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+
+  color: white !important;
+}
+
+/* ================================
+   PARAGRAPHS
+================================ */
+
+p {
+  margin: 0;
+
+  color: white;
+}
+
+/* ================================
+   INPUT
+================================ */
+
+input {
+  font-family: inherit;
+}
+
+/* ================================
+   LINKS
+================================ */
+
+a {
+  color: white;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+
+button {
+  color: white;
+}
